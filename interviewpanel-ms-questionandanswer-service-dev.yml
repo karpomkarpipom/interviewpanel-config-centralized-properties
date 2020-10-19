@@ -4,7 +4,7 @@ server:
   
 interviewpanel:
   test:
-    email: selvasharesource1@gmail.com
+    email: selvasharesource@gmail.com
 
     
 spring:
