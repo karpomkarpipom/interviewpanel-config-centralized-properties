@@ -5,6 +5,7 @@ server:
 interviewpanel:
   test:
     email: selvasharesource@gmail.com
+    mobile: +1222-333-2222
 
     
 spring:
