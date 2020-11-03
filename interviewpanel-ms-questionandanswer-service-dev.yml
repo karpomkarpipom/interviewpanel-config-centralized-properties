@@ -1,13 +1,9 @@
 server:
   port: 8081
   
-  
-interviewpanel:
-  test:
-    email: selvasharesource-2@gmail.com
-
-    
 spring:
+  application:
+    name: interviewpanel-ms-questionandanswer-service
   data: 
     mongodb: 
       authentication-database: admin
@@ -16,3 +12,12 @@ spring:
       database: test
       port: 27017
       host: localhost
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers:
+          - http://18.188.152.98:9092
+      bindings:
+        output:
+          destination: NEW_QUESTIONS_POSTED_TOPIC
