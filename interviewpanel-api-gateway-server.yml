@@ -51,7 +51,7 @@ zuul:
 server: 
   port: 8080
 
-#spring data mongo
+##spring data mongo
 #spring.datasource.url=mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false
  
   
