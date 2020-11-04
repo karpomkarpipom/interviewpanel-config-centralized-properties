@@ -41,7 +41,7 @@ zuul:
        path: /interviewpanel/user/**
        serviceId: INTERVIEWPANEL-MS-USER-SERVICE
      interviewpanel-notification:
-       path: /interviewpanel/notification
+       path: /interviewpanel/notification/**
        serviceId: INTERVIEWPANEL-MS-NOTIFICATION-SERVICE
   prefix: /api
   host:
