@@ -17,7 +17,7 @@ spring:
       kafka:
         binder:
           brokers:
-          - http://18.188.152.98:9092
+          - http://480c027756c8.ngrok.io/
       bindings:
         output:
           destination: NEW_QUESTIONS_POSTED_TOPIC
