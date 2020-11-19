@@ -24,7 +24,7 @@ spring:
 #zuul.routes.middleware.url=http://localhost:8081/
 jwt:
   secretKey: secret-key
-  expirationDateInMs: 60000 #3600000 #1hour
+  expirationDateInMs: 3600000 #1hour #60000
   refreshExpirationDateInMs: 9000000
   
 zuul: 
