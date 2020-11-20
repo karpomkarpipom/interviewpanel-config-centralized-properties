@@ -22,7 +22,10 @@ spring:
 #eureka.server.wait-time-in-ms-when-sync-empty=0
 #All url come with prefix/api will interpret
 #zuul.routes.middleware.url=http://localhost:8081/
-
+jwt:
+  secretKey: secret-key
+  expirationDateInMs: 60000 #3600000 #1hour
+  refreshExpirationDateInMs: 9000000
   
 zuul: 
   routes: 
