@@ -55,6 +55,9 @@ zuul:
 server: 
   port: 8080
 
+
+email:
+  subject: Welcome to Interviewpanel.
 ##spring data mongo
 #spring.datasource.url=mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false
  
